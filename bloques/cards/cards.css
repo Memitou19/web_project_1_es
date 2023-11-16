@@ -4,6 +4,6 @@
   width: 920px;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 100px;
-  column-gap: 60px;
+  row-gap: 60px;
+  column-gap: 100px;
 }

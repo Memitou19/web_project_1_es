@@ -1,4 +1,5 @@
-
+/* Proveedor */
+@import url(../proveedor/normalize.css);
 
 /* Cards */
 @import url(../bloques/cards/__description/cards__description.css);
@@ -26,7 +27,7 @@
 /* Footer */
 @import url(../bloques/footer/__author/footer__author.css);
 @import url(../bloques/footer/__columns/footer__columns.css);
-@import url(../bloques/footer/__copyright/footer__columns_copyright.css);
+@import url(../bloques/footer/__copyright/footer__column_copyright.css);
 @import url(../bloques/footer/__heading/footer__column-heading.css);
 @import url(../bloques/footer/__link/footer__column-link.css);
 @import url(../bloques/footer/__list/footer__list.css);
@@ -97,8 +98,8 @@
 
 
 /* Table */
-@import url(../bloques/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../bloques/table/__cell/table__cell.css);
+@import url(../bloques/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../bloques/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../bloques/table/__heading/table__heading.css);
 @import url(../bloques/table/__text/_theme/table__text_theme_dark.css);
@@ -123,3 +124,7 @@
 @import url(../bloques/video/__iframe/video__iframe.css);
 @import url(../bloques/video/__iframes/video__iframes.css);
 @import url(../bloques/video/video.css);
+
+a:hover {
+  opacity: .7;
+}

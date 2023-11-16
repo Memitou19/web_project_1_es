@@ -8,6 +8,7 @@
   -webkit-transition: opacity 1.2s;
   -o-transition: opacity 1.2s;
   transition: opacity 1.2s;
+  color: #2f80ed;
 }
 
 .khan__buy-link:hover {
